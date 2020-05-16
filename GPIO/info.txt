@@ -1,0 +1,6 @@
+V = I * R
+
+Voltage = Current * Resistance
+
+https://pinout.xyz/
+

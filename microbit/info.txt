@@ -1,0 +1,39 @@
+Controller  B8:27:EB:D3:B6:B8 
+
+D3:CB:9C:01:AF:14 BBC micro:bit [pigot]
+
+
+
+
+DD:82:10:FF:52:5E
+
+DD:82:10:FF:52:5E BBC micro:bit [gizug]
+
+
+
+sudo bluez-simple-agent hci0 DD:82:10:FF:52:5E
+
+
+NODE BLUES
+https://www.instructables.com/id/Control-Bluetooth-LE-Devices-From-A-Raspberry-Pi/
+
+cd ~; wget https://www.kernel.org/pub/linux/bluetooth/bluez-5.53.tar.xz
+
+
+
+
+https://raspberry-projects.com/pi/pi-operating-systems/raspbian/bluetooth/bluetooth-commands
+
+
+
+
+sudo hciconfig
+sudo hcitool lescan
+
+sudo hciconfig hci0 up
+
+sudo gatttool -b DD:82:10:FF:52:5E  -I
+connect
+
+
+
