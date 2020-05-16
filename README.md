@@ -1,4 +1,4 @@
-# Rasperry Pi stuff
+# Raspberry Pi stuff
 
 Assembler tests
 
